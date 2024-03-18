@@ -1,8 +1,0 @@
-New Program changes:
-    1) No globals
-    2) only argument handling exist within global space
-
-Questions:
-    1) Double check all code for mistakes.
-    
-    
