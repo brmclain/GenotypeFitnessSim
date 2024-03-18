@@ -10,7 +10,7 @@ The purpose of these programs is to track the sex determining alleles in house f
   row in a table containing the allele frequencies and any additional information that was used or created during the 
   process. These tables can then be used to compare to real world populations.
 
-Detailed description of how these programs run can be found in Folder "Y1Y2W" README.txt
+How to run these programs are part of the README.txt in folder "Y1Y2W".
 
 
 
