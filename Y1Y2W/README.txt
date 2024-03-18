@@ -16,11 +16,11 @@ MultiProcessingCode.py:
             3) CPU cores available (whole number)
             4) The dominance type (must be "dominant", "recessive", "random", or "additive")
         Optional aurguments:
-             ) --control_file or -o (text file with 18 initial frequencies seperated by a tab and add up to 1)
-                DEFAULT: [0.05556, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556]
+             ) --control_file or -o (text file with a float value for every combination of alleles in the genotype that add up to 1. If none is given, will divide frequency evenly.)
+                DEFAULT for Y1Y2W: [0.05556, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556, 0.05555, 0.05556]
              ) --allele_range or -a (value between 0 and 1, exluding 0)
                 DEFAULT: 1
-             ) --switches or -s (ones or zeros, 7 characters long to determine what is returned)
+             ) --switches or -s (ones or zeros, 7 characters long to determine what data is placed in the final table.)
                 [0] allele_fitness
                 [1] fitness_array
                 [2] dom_result
