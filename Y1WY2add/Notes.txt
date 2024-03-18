@@ -1,3 +1,0 @@
-Questions:
-
-    1)Why are the allele fitness values tracking a single sex veraint in male/female but not the other?
